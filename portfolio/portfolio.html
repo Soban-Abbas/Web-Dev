@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M. Soban Abbas | Portfolio</title>
+  <style>
+    :root {
+      --primary: #1e3c72;
+      --secondary: #071124;
+      --accent: #00bcd4;
+      --text: #f0f4f8;
+      --bg: #f7f9fc;
+      --card-bg: #ffffff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: #181212;
+      line-height: 1.6;
+    }
+
+    /* Navigation Bar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      padding: 1rem;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--accent);
+    }
+
+    /* Header Section */
+    header {
+      padding-top: 7rem;
+      padding-bottom: 3rem;
+      text-align: center;
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+      color: var(--text);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    /* Sections */
+    section {
+      background: var(--card-bg);
+      margin: 2rem auto;
+      padding: 2rem;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    a {
+      color: var(--secondary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #eaecef;
+      color: #444;
+      font-size: 0.9rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#introduction">Introduction</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Header -->
+  <header id="introduction">
+    <h1>M. Soban Abbas</h1>
+    <p>Software Engineer | Front-End Developer | WordPress Developer</p>
+  </header>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> C++, JavaScript</li>
+      <li><strong>Web Technologies:</strong> HTML, CSS, JavaScript, React</li>
+      <li><strong>Other Tools:</strong> Excel, WordPress</li>
+      <li><strong>Soft Skills:</strong> Communication, Problem Solving, Leadership</li>
+    </ul>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Sports News Website:</strong> Responsive WordPress site with news sections & categories.</li>
+      <li><strong>Tech World Blog:</strong> Blog on AI, mobile & software using WordPress and plugins.</li>
+      <li><strong>Portfolio Website:</strong> Static HTML/CSS website with About, Projects, Resume, Contact.</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sobanabbass@gmail.com">sobanabbass@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/M-Soban-Abbas" target="_blank">linkedin.com/in/M-Soban-Abbas</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 M. Soban Abbas | All rights reserved.
+  </footer>
+
+</body>
+</html>
